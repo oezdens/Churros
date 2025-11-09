@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import img1 from "@/Bilder/1.jpg";
 import img2 from "@/Bilder/2.jpg";
 import img3 from "@/Bilder/3.jpg";
 import img6 from "@/Bilder/6.jpg";
 
 export default function ImageGallery() {
+  const [active, setActive] = useState<number | null>(null);
   return (
     <>
       <style>{`
@@ -29,10 +31,18 @@ export default function ImageGallery() {
           {[img1, img2, img3, img6].map((src, idx) => (
             <div
               key={idx}
-              className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full"
+              role="button"
+              tabIndex={0}
+              aria-pressed={active === idx}
+              onClick={() => setActive(active === idx ? null : idx)}
+              onTouchStart={() => setActive(active === idx ? null : idx)}
+              className={
+                `relative group flex-grow transition-all rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full ` +
+                (active === idx ? 'w-full z-20' : 'w-56')
+              }
             >
               <img
-                className="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center transition-transform duration-300 will-change-transform"
                 src={src}
                 alt={`image-${idx}`}
               />

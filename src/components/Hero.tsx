@@ -17,6 +17,10 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
+            <div className="w-full flex justify-start">
+              <p className="text-lg font-medium text-slate-700 mb-1 text-left tracking-wide">20. November - 30.12.2025</p>
+            </div>
+
             <div className="inline-block">
               <span className="bg-amber-600/10 text-amber-700 px-4 py-2 rounded-full text-base font-semibold">
                 <span className="text-2xl">🎄</span> Jetzt auf dem Weihnachtsmarkt <span className="text-2xl">🎄</span>
