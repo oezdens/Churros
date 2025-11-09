@@ -58,6 +58,11 @@ vercel login
 vercel --prod
 ```
 
+Note on Vercel project name:
+
+- Vercel project names should be lowercase and may include letters, digits, and the characters `.` `_` `-` (max 100 chars). They cannot contain the sequence `---`.
+- This repository includes `vercel.json` with the project name set to `churros-weihnachtsmarkt-dortmund`, which follows these rules.
+
 ---
 
 ## Files added for deployment convenience
