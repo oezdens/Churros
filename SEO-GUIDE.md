@@ -76,8 +76,8 @@ Speichere es als: `public/og-image.jpg`
 
 ### 3. **Google Search Console**
 1. Registriere Website: https://search.google.com/search-console
-2. Verifiziere Domain
-3. Sitemap einreichen: https://churros-dortmund.de/sitemap.xml
+2. Verifiziere Domain: churros-schupfnudeln.de
+3. Sitemap einreichen: https://churros-schupfnudeln.de/sitemap.xml
 4. Überwache Rankings und Klicks
 
 ### 4. **Social Media**
@@ -152,6 +152,7 @@ Nach dem Launch:
 Stand: Markt 11, 44137 Dortmund
 Telefon: 0178 9348774
 E-Mail: info@churros-dortmund.de
+Website: https://churros-schupfnudeln.de
 Zeitraum: 20. November - 30. Dezember 2025
 
 ---

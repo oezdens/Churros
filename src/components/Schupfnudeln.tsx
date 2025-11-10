@@ -55,12 +55,12 @@ export default function Schupfnudeln() {
               </span>
             </div>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
               Schupfnudeln
               <span className="block text-blue-600">mit Speck</span>
             </h1>
 
-            <p className="text-xl text-gray-600 leading-relaxed max-w-xl">
+            <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-xl">
               Genießen Sie traditionelle bayrische Schupfnudeln mit herzhaftem Speck. 
               Frisch zubereitet und perfekt gewürzt – ein echter Weihnachtsmarkt-Klassiker.
             </p>
@@ -76,12 +76,12 @@ export default function Schupfnudeln() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative w-full max-w-lg mx-auto lg:mx-0">
             <div className="relative w-full aspect-square">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-3xl rotate-6 opacity-20"></div>
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 rounded-3xl -rotate-3 opacity-30"></div>
 
-              <div className="relative bg-white rounded-3xl shadow-2xl p-8 space-y-6">
+              <div className="relative bg-white rounded-3xl shadow-2xl p-6 sm:p-8 space-y-6">
                 <div className="aspect-video bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center overflow-hidden">
                   <img
                     src={schupfnudelnImg}

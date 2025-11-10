@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://churros-dortmund.de/sitemap.xml
+Sitemap: https://churros-schupfnudeln.de/sitemap.xml
 
 # Block common bad bots
 User-agent: AhrefsBot

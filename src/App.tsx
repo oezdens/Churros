@@ -24,14 +24,14 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex justify-between items-center h-20">
             <div className="flex flex-col">
-              <div className="flex items-center space-x-2">
-                <span className="text-3xl font-bold text-amber-600">Churros</span>
-                <span className="text-2xl font-bold text-gray-400">&</span>
-                <span className="text-3xl font-bold text-blue-600">Schupfnudeln</span>
+              <div className="flex items-center space-x-1 sm:space-x-2">
+                <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-amber-600">Churros</span>
+                <span className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-400">&</span>
+                <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600">Schupf...</span>
               </div>
-              <div className="text-sm text-gray-600">Weihnachtsmarkt Dortmund</div>
+              <div className="text-xs sm:text-sm text-gray-600">Weihnachtsmarkt Dortmund</div>
             </div>
-            <div className="flex items-center space-x-6">
+            <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
               {/* Location info */}
               <a 
                 href="https://maps.google.com/?q=Markt+11,+44137+Dortmund"
@@ -48,7 +48,7 @@ function App() {
               <a href="#contact" className="text-gray-700 hover:text-amber-600 transition-colors font-medium hidden md:block">Kontakt</a>
 
               {/* Phone CTA */}
-              <a href="tel:01789348774" className="flex items-center space-x-2 bg-amber-600 text-white px-6 py-2.5 rounded-full hover:bg-amber-700 transition-all shadow-md hover:shadow-lg">
+              <a href="tel:01789348774" className="flex items-center space-x-2 bg-amber-600 text-white px-3 sm:px-6 py-2.5 rounded-full hover:bg-amber-700 transition-all shadow-md hover:shadow-lg">
                 <Phone className="w-4 h-4" />
                 <span className="hidden sm:inline">0178 9348774</span>
               </a>

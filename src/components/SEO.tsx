@@ -8,8 +8,8 @@ interface SEOProps {
 }
 
 export default function SEO({ 
-  title = 'Churros & Schupfnudeln Weihnachtsmarkt Dortmund 2025 | Dubai Schokolade',
-  description = 'Churros mit Dubai Schokolade und bayrische Schupfnudeln mit Speck auf dem Weihnachtsmarkt Dortmund am Markt 11. Täglich frisch zubereitet. Auch für Bochum, Essen, Herne, Unna, Castrop-Rauxel.',
+  title = 'Weihnachtsmarkt Dortmund 2025 | Churros & Schupfnudeln am Markt 11 | Dubai Schokolade',
+  description = '🎄 Besuchen Sie uns auf dem Weihnachtsmarkt Dortmund 2025! Churros mit Dubai Schokolade & bayrische Schupfnudeln mit Speck am Markt 11. Täglich vom 20. Nov - 30. Dez. Street Food Stand im Herzen von Dortmund.',
   type = 'website',
   image = '/og-image.jpg'
 }: SEOProps) {
@@ -20,14 +20,18 @@ export default function SEO({
       // LocalBusiness
       {
         "@type": "FoodEstablishment",
-        "@id": "https://churros-dortmund.de/#business",
-        "name": "Churros & Schupfnudeln Weihnachtsmarkt Dortmund",
-        "description": "Churros mit Dubai Schokolade und bayrische Schupfnudeln mit Speck - frisch zubereitet auf dem Dortmunder Weihnachtsmarkt",
-        "image": "https://churros-dortmund.de/og-image.jpg",
+        "@id": "https://churros-schupfnudeln.de/#business",
+        "name": "Churros & Schupfnudeln - Weihnachtsmarkt Dortmund 2025",
+        "alternateName": "Churros Stand Weihnachtsmarkt Dortmund",
+        "description": "Temporärer Food Stand auf dem Dortmunder Weihnachtsmarkt 2025. Churros mit Dubai Schokolade und bayrische Schupfnudeln mit Speck - täglich frisch zubereitet vom 20. November bis 30. Dezember 2025",
+        "image": "https://churros-schupfnudeln.de/og-image.jpg",
         "telephone": "0178-9348774",
         "email": "info@churros-dortmund.de",
         "priceRange": "€-€€",
         "servesCuisine": ["Spanisch", "Bayrisch", "Street Food"],
+        "paymentAccepted": "Cash, Card",
+        "currenciesAccepted": "EUR",
+        "keywords": "Weihnachtsmarkt Dortmund, Churros, Schupfnudeln, Dubai Schokolade, Street Food, Weihnachtsmarkt Stand, Food Stand Dortmund",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Markt 11",
@@ -121,13 +125,16 @@ export default function SEO({
       // Event
       {
         "@type": "Event",
-        "@id": "https://churros-dortmund.de/#event",
-        "name": "Churros & Schupfnudeln auf dem Dortmunder Weihnachtsmarkt 2025",
-        "description": "Genießen Sie Churros mit Dubai Schokolade und bayrische Schupfnudeln mit Speck täglich auf dem Weihnachtsmarkt Dortmund",
+        "@id": "https://churros-schupfnudeln.de/#event",
+        "name": "Churros & Schupfnudeln auf dem Weihnachtsmarkt Dortmund 2025",
+        "alternateName": "Food Stand Weihnachtsmarkt Dortmund",
+        "description": "Besuchen Sie unseren temporären Stand auf dem Dortmunder Weihnachtsmarkt 2025! Genießen Sie täglich frische Churros mit Dubai Schokolade und bayrische Schupfnudeln mit Speck. Zentral am Markt 11 gelegen.",
         "startDate": "2025-11-20T11:00:00+01:00",
         "endDate": "2025-12-30T21:00:00+01:00",
         "eventStatus": "https://schema.org/EventScheduled",
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "isAccessibleForFree": false,
+        "keywords": "Weihnachtsmarkt Dortmund 2025, Churros Weihnachtsmarkt, Schupfnudeln Stand, Dubai Schokolade, Street Food Weihnachtsmarkt, Weihnachtsmarkt Essen",
         "location": {
           "@type": "Place",
           "name": "Weihnachtsmarkt Dortmund",
@@ -142,7 +149,7 @@ export default function SEO({
         "organizer": {
           "@type": "Organization",
           "name": "Churros & Schupfnudeln Weihnachtsmarkt Dortmund",
-          "url": "https://churros-dortmund.de"
+          "url": "https://churros-schupfnudeln.de"
         },
         "performer": {
           "@type": "Organization",
@@ -152,7 +159,7 @@ export default function SEO({
       // Product - Churros
       {
         "@type": "Product",
-        "@id": "https://churros-dortmund.de/#churros",
+        "@id": "https://churros-schupfnudeln.de/#churros",
         "name": "Churros mit Dubai Schokolade",
         "description": "Knusprige spanische Churros mit luxuriöser Dubai Schokolade - eine einzigartige Fusion auf dem Weihnachtsmarkt Dortmund",
         "brand": {
@@ -177,7 +184,7 @@ export default function SEO({
       // Product - Schupfnudeln
       {
         "@type": "Product",
-        "@id": "https://churros-dortmund.de/#schupfnudeln",
+        "@id": "https://churros-schupfnudeln.de/#schupfnudeln",
         "name": "Bayrische Schupfnudeln mit Speck",
         "description": "Traditionelle bayrische Schupfnudeln mit herzhaftem Speck und Sauerkraut - authentisch zubereitet auf dem Weihnachtsmarkt Dortmund",
         "brand": {
@@ -203,47 +210,65 @@ export default function SEO({
   };
 
   const keywords = [
-    // Churros Keywords
-    "Churros Dortmund",
+    // Weihnachtsmarkt Dortmund Keywords (PRIORITÄT!)
+    "Weihnachtsmarkt Dortmund",
+    "Weihnachtsmarkt Dortmund 2025",
+    "Weihnachtsmarkt Dortmund Essen",
+    "Weihnachtsmarkt Dortmund Stände",
+    "Weihnachtsmarkt Dortmund Food",
+    "Weihnachtsmarkt Dortmund Street Food",
+    "Essen auf dem Weihnachtsmarkt Dortmund",
+    "Food Weihnachtsmarkt Dortmund",
+    "Weihnachtsmarkt Dortmund Markt 11",
+    "Dortmunder Weihnachtsmarkt",
+    "Dortmund Weihnachtsmarkt",
+    "Weihnachtsmarkt Dortmund Innenstadt",
+    "Was essen auf Weihnachtsmarkt Dortmund",
+    "Beste Stände Weihnachtsmarkt Dortmund",
+    "Weihnachtsmarkt Dortmund Öffnungszeiten",
+    "Weihnachtsmarkt Dortmund 2025 Termine",
+    // Churros + Weihnachtsmarkt
     "Churros Weihnachtsmarkt Dortmund",
-    "Dubai Schokolade Churros Dortmund",
     "Churros Dortmund Weihnachtsmarkt 2025",
+    "Churros Weihnachtsmarkt",
+    "Churros Dortmund",
+    "Dubai Schokolade Churros Dortmund",
     "Churros am Markt Dortmund",
+    "Churros mit Dubai Schokolade Weihnachtsmarkt",
+    "spanische Churros Weihnachtsmarkt Dortmund",
+    "Churros Stand Dortmund",
+    // Schupfnudeln + Weihnachtsmarkt
+    "Schupfnudeln Weihnachtsmarkt Dortmund",
+    "Schupfnudeln Dortmund Weihnachtsmarkt",
+    "Schupfnudeln Weihnachtsmarkt",
+    "bayrische Schupfnudeln Weihnachtsmarkt Dortmund",
+    "Schupfnudeln mit Speck Dortmund",
+    "Schupfnudeln Stand Weihnachtsmarkt",
+    "Schupfnudeln Dortmund",
+    // Regional + Weihnachtsmarkt
+    "Weihnachtsmarkt Ruhrgebiet",
+    "Weihnachtsmarkt NRW",
     "Churros Bochum",
     "Churros Essen",
-    "Churros Weihnachtsmarkt",
-    "spanische Churros Dortmund",
-    "Churros mit Schokolade Dortmund",
-    // Schupfnudeln Keywords
-    "Schupfnudeln Dortmund",
-    "Schupfnudeln Weihnachtsmarkt Dortmund",
-    "bayrische Schupfnudeln Dortmund",
-    "Schupfnudeln mit Speck Dortmund",
-    "Schupfnudeln Weihnachtsmarkt",
-    "Schupfnudeln Ruhrgebiet",
+    "Churros Herne",
     "Schupfnudeln Bochum",
     "Schupfnudeln Essen",
-    // Weihnachtsmarkt Keywords
-    "Weihnachtsmarkt Dortmund Essen",
-    "Weihnachtsmarkt Dortmund 2025",
-    "Essen Weihnachtsmarkt Dortmund",
-    "Street Food Weihnachtsmarkt Dortmund",
-    "Food Weihnachtsmarkt Dortmund",
-    // Regional Keywords
-    "Essen auf dem Weihnachtsmarkt Dortmund",
-    "Weihnachtsmarkt Ruhrgebiet",
-    "Dortmund Innenstadt Weihnachtsmarkt",
-    "Markt 11 Dortmund",
+    "Schupfnudeln Ruhrgebiet",
+    // Saisonale & temporäre Keywords
+    "Weihnachtsmarkt Dortmund temporärer Stand",
+    "Saisonaler Food Stand Dortmund",
+    "Street Food Weihnachtszeit Dortmund",
+    "Weihnachtsmarkt Dortmund November Dezember",
+    "Weihnachtsmarkt Dortmund bis 30. Dezember",
     // Umliegende Städte
-    "Churros Herne",
     "Churros Unna",
     "Churros Castrop-Rauxel",
     "Churros Witten",
     "Churros Lünen",
     "Schupfnudeln Herne",
     "Schupfnudeln Unna",
-    "Weihnachtsmarkt Bochum Essen",
-    "Weihnachtsmarkt Essen Dortmund"
+    "Weihnachtsmarkt Bochum Churros",
+    "Weihnachtsmarkt Essen Schupfnudeln"
   ].join(", ");
 
   return (
@@ -255,7 +280,7 @@ export default function SEO({
       <meta name="keywords" content={keywords} />
       
       {/* Canonical URL */}
-      <link rel="canonical" href="https://churros-dortmund.de" />
+      <link rel="canonical" href="https://churros-schupfnudeln.de" />
       
       {/* Geo Tags */}
       <meta name="geo.region" content="DE-NW" />
@@ -269,19 +294,19 @@ export default function SEO({
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={type} />
-      <meta property="og:url" content="https://churros-dortmund.de/" />
+      <meta property="og:url" content="https://churros-schupfnudeln.de/" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={`https://churros-dortmund.de${image}`} />
+      <meta property="og:image" content={`https://churros-schupfnudeln.de${image}`} />
       <meta property="og:locale" content="de_DE" />
       <meta property="og:site_name" content="Churros & Schupfnudeln Weihnachtsmarkt Dortmund" />
       
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://churros-dortmund.de/" />
+      <meta property="twitter:url" content="https://churros-schupfnudeln.de/" />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
-      <meta property="twitter:image" content={`https://churros-dortmund.de${image}`} />
+      <meta property="twitter:image" content={`https://churros-schupfnudeln.de${image}`} />
       
       {/* Additional Meta Tags */}
       <meta name="author" content="Churros & Schupfnudeln Weihnachtsmarkt Dortmund" />

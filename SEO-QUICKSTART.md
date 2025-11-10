@@ -109,7 +109,7 @@ Täglich frisch zubereitet! Wir freuen uns auf euren Besuch! ❤️
 - **Kategorie:** Restaurant / Street-Food-Stand
 - **Adresse:** Markt 11, 44137 Dortmund
 - **Telefon:** 0178 9348774
-- **Website:** https://churros-dortmund.de
+- **Website:** https://churros-schupfnudeln.de
 - **Öffnungszeiten:** 
   - Mo-So: 11:00 - 21:00 (20.11.2025 - 30.12.2025)
 
@@ -207,7 +207,7 @@ Auch ideal für Besucher aus Bochum, Essen, Herne und dem gesamten Ruhrgebiet er
 ## 💡 Quick Wins (sofort umsetzen!)
 
 1. **QR-Code erstellen** für Stand/Flyer
-   - Link zu: https://churros-dortmund.de
+   - Link zu: https://churros-schupfnudeln.de
    - Mit Google Maps Link
    
 2. **Google Review Link generieren**
@@ -230,7 +230,7 @@ Auch ideal für Besucher aus Bochum, Essen, Herne und dem gesamten Ruhrgebiet er
    Churros & Schupfnudeln Weihnachtsmarkt Dortmund
    Markt 11, 44137 Dortmund
    Tel: 0178 9348774
-   Web: https://churros-dortmund.de
+   Web: https://churros-schupfnudeln.de
    
    Täglich frisch: 20. Nov - 30. Dez 2025 | 11:00-21:00 Uhr
    ```
