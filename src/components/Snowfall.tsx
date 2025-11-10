@@ -17,7 +17,7 @@ export default function Snowfall() {
       left: Math.random() * 100,
       animationDuration: 10 + Math.random() * 20,
       size: 2 + Math.random() * 4,
-      delay: Math.random() * 10,
+      delay: -(Math.random() * 20), // Negative delay to start animations immediately at different stages
     }));
     setSnowflakes(flakes);
   }, []);

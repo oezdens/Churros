@@ -11,10 +11,10 @@ export default function Footer({ onImpressumClick, onDatenschutzClick }: FooterP
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-2">
-            <h3 className="text-2xl font-bold text-amber-500 mb-4">Churros Weihnachtsmarkt Dortmund</h3>
+            <h3 className="text-2xl font-bold text-amber-500 mb-4">Churros & Schupfnudeln Weihnachtsmarkt Dortmund</h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
-              Dubai Schokolade küsst Churros - frisch zubereitet und mit Liebe serviert.
-              Besuchen Sie uns auf dem Weihnachtsmarkt am Markt in Dortmund!
+              Dubai Schokolade küsst Churros und bayrische Schupfnudeln mit Speck - frisch zubereitet 
+              und mit Liebe serviert. Besuchen Sie uns auf dem Weihnachtsmarkt am Markt in Dortmund!
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function Footer({ onImpressumClick, onDatenschutzClick }: FooterP
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Churros Weihnachtsmarkt Dortmund. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} Churros & Schupfnudeln Weihnachtsmarkt Dortmund. Alle Rechte vorbehalten.
           </p>
 
           <div className="flex space-x-6 text-sm">

@@ -1,0 +1,14 @@
+# Robots.txt für Churros & Schupfnudeln Weihnachtsmarkt Dortmund
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://churros-dortmund.de/sitemap.xml
+
+# Block common bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

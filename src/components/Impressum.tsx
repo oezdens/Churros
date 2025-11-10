@@ -4,79 +4,51 @@ export default function Impressum() {
       <h1 className="text-3xl font-bold text-gray-900 mb-6">Impressum</h1>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäß § 5 TMG</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäß § 5 DDG (ehemals TMG)</h2>
         <div className="space-y-2 text-gray-700">
-          <p className="font-semibold text-lg">Churros Dortmund</p>
-          <p>Markt 11</p>
-          <p>44137 Dortmund</p>
+          <p>Robert Theiß</p>
+          <p>Zwischen den Wegen 1</p>
+          <p>32427 Minden</p>
+          <p>Deutschland</p>
         </div>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Kontakt</h2>
         <div className="space-y-2 text-gray-700">
-          <p><span className="font-medium">Telefon:</span> 0178 9348774</p>
+          <p><span className="font-medium">Telefon:</span> 0800 77777 27</p>
+          <p><span className="font-medium">E-Mail:</span> Theissankauf@web.de</p>
         </div>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Umsatzsteuer-ID</h2>
-        <p className="text-gray-700">
-          Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
-          <span className="font-medium">[Bitte ergänzen]</span>
-        </p>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV (ehemals § 55 Abs. 2 RStV)</h2>
         <div className="space-y-2 text-gray-700">
-          <p>Churros Dortmund</p>
-          <p>Markt 11</p>
-          <p>44137 Dortmund</p>
+          <p>Robert Theiß</p>
+          <p>Zwischen den Wegen 1</p>
+          <p>32427 Minden</p>
+          <p>Telefon: 0800 77777 27</p>
         </div>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">EU-Streitschlichtung</h2>
         <p className="text-gray-700 mb-4">
-          Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+          Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
+          <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:text-amber-700 ml-1">
+            https://ec.europa.eu/consumers/odr
+          </a>
         </p>
-        <a
-          href="https://ec.europa.eu/consumers/odr"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-amber-600 hover:text-amber-700 underline"
-        >
-          https://ec.europa.eu/consumers/odr
-        </a>
-        <p className="text-gray-700 mt-2">
+        <p className="text-gray-700">
           Unsere E-Mail-Adresse finden Sie oben im Impressum.
         </p>
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verbraucherstreitbeilegung/Universalschlichtungsstelle</h2>
         <p className="text-gray-700">
-          Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+          Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer 
           Verbraucherschlichtungsstelle teilzunehmen.
-        </p>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Haftung für Inhalte</h2>
-        <p className="text-gray-700 mb-4">
-          Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten
-          nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als
-          Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
-          Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige
-          Tätigkeit hinweisen.
-        </p>
-        <p className="text-gray-700">
-          Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den
-          allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch
-          erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei
-          Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend
-          entfernen.
         </p>
       </section>
     </div>

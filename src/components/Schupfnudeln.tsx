@@ -1,4 +1,8 @@
 import { ChevronRight } from 'lucide-react';
+import schupfnudelnImg from '../Bilder/Schupfnudeln0.png';
+import tileImg1 from '../Bilder/Schupfnudeln2.png';
+import tileImg2 from '../Bilder/Schupfnudeln3.png';
+import tileImg3 from '../Bilder/Schupfnudeln4.png';
 
 export default function Schupfnudeln() {
   return (
@@ -24,6 +28,22 @@ export default function Schupfnudeln() {
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+      </div>
+
+      {/* Animated Christmas Trees */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-40">
+        <div className="absolute top-10 left-[10%] text-6xl animate-float-slow">🎄</div>
+        <div className="absolute top-32 right-[15%] text-5xl animate-float-medium" style={{ animationDelay: '1s' }}>🎄</div>
+        <div className="absolute bottom-32 left-[20%] text-7xl animate-float-slow" style={{ animationDelay: '2s' }}>🎄</div>
+        <div className="absolute top-48 left-[40%] text-4xl animate-float-medium" style={{ animationDelay: '0.5s' }}>🎄</div>
+        <div className="absolute bottom-20 right-[25%] text-6xl animate-float-slow" style={{ animationDelay: '1.5s' }}>🎄</div>
+        <div className="absolute top-24 right-[40%] text-5xl animate-float-medium" style={{ animationDelay: '2.5s' }}>🎄</div>
+        <div className="absolute top-60 left-[5%] text-5xl animate-float-slow" style={{ animationDelay: '3s' }}>🎄</div>
+        <div className="absolute bottom-48 right-[8%] text-6xl animate-float-medium" style={{ animationDelay: '1.8s' }}>🎄</div>
+        <div className="absolute top-36 left-[60%] text-4xl animate-float-slow" style={{ animationDelay: '2.2s' }}>🎄</div>
+        <div className="absolute bottom-24 left-[35%] text-5xl animate-float-medium" style={{ animationDelay: '0.8s' }}>🎄</div>
+        <div className="absolute top-16 right-[55%] text-7xl animate-float-slow" style={{ animationDelay: '3.5s' }}>🎄</div>
+        <div className="absolute bottom-40 right-[45%] text-4xl animate-float-medium" style={{ animationDelay: '1.2s' }}>🎄</div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -63,7 +83,11 @@ export default function Schupfnudeln() {
 
               <div className="relative bg-white rounded-3xl shadow-2xl p-8 space-y-6">
                 <div className="aspect-video bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl flex items-center justify-center overflow-hidden">
-                  <div className="text-8xl">🥔</div>
+                  <img
+                    src={schupfnudelnImg}
+                    alt="Schupfnudeln mit Speck"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 <div className="space-y-3">
@@ -77,12 +101,12 @@ export default function Schupfnudeln() {
                 </div>
 
                 <div className="grid grid-cols-3 gap-4 pt-4">
-                  {['🥓', '🧈', '🧅'].map((emoji, i) => (
+                  {([tileImg1, tileImg2, tileImg3] as string[]).map((src, i) => (
                     <div
                       key={i}
-                      className="aspect-square bg-blue-50 rounded-xl flex items-center justify-center hover:scale-110 transition-transform cursor-pointer text-4xl"
+                      className="aspect-square bg-blue-50 rounded-xl flex items-center justify-center overflow-hidden hover:scale-110 transition-transform cursor-pointer"
                     >
-                      {emoji}
+                      <img src={src} alt={`schupfnudeln-${i + 1}`} className="w-full h-full object-cover" />
                     </div>
                   ))}
                 </div>

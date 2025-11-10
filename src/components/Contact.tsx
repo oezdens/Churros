@@ -73,7 +73,7 @@ export default function Contact() {
 
         <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl overflow-hidden shadow-2xl">
           <div className="grid lg:grid-cols-2">
-            <div className="p-12 flex flex-col justify-center">
+            <div className="p-8 sm:p-12 flex flex-col justify-center">
               <h3 className="text-3xl font-bold text-white mb-6">
                 Auf dem Dortmunder Weihnachtsmarkt
               </h3>
@@ -108,27 +108,18 @@ export default function Contact() {
                 href="https://maps.google.com/?q=Markt+11,+44137+Dortmund"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center space-x-2 bg-amber-600 text-white px-8 py-4 rounded-full hover:bg-amber-700 transition-all shadow-lg hover:shadow-xl w-fit"
+                className="mt-8 inline-flex items-center justify-center space-x-2 bg-amber-600 text-white px-8 py-4 rounded-full hover:bg-amber-700 transition-all shadow-lg hover:shadow-xl w-full sm:w-fit"
               >
                 <MapPin className="w-5 h-5" />
                 <span className="font-semibold">In Google Maps öffnen</span>
               </a>
             </div>
 
-            <div className="bg-gradient-to-br from-amber-400 to-orange-500 p-12 flex items-center justify-center">
-              <div className="text-center space-y-6">
+            <div className="bg-gradient-to-br from-amber-400 to-orange-500 p-8 sm:p-12 flex items-center justify-center">
+              <div className="text-center space-y-6 w-full">
                 <div className="text-8xl mb-4">📍</div>
                 <p className="text-2xl font-bold text-white">Markt 11</p>
                 <p className="text-xl text-amber-100">44137 Dortmund</p>
-                <div className="pt-6 space-y-2">
-                  <p className="text-amber-50 font-semibold">Rufen Sie uns an:</p>
-                  <a
-                    href="tel:01789348774"
-                    className="block text-3xl font-bold text-white hover:text-amber-100 transition-colors"
-                  >
-                    0178 9348774
-                  </a>
-                </div>
               </div>
             </div>
           </div>

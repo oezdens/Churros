@@ -14,6 +14,22 @@ export default function Hero() {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-orange-400 rounded-full blur-3xl"></div>
       </div>
 
+      {/* Animated Christmas Trees */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-40">
+        <div className="absolute top-10 left-[10%] text-6xl animate-float-slow">🎄</div>
+        <div className="absolute top-32 right-[15%] text-5xl animate-float-medium" style={{ animationDelay: '1s' }}>🎄</div>
+        <div className="absolute bottom-32 left-[20%] text-7xl animate-float-slow" style={{ animationDelay: '2s' }}>🎄</div>
+        <div className="absolute top-48 left-[40%] text-4xl animate-float-medium" style={{ animationDelay: '0.5s' }}>🎄</div>
+        <div className="absolute bottom-20 right-[25%] text-6xl animate-float-slow" style={{ animationDelay: '1.5s' }}>🎄</div>
+        <div className="absolute top-24 right-[40%] text-5xl animate-float-medium" style={{ animationDelay: '2.5s' }}>🎄</div>
+        <div className="absolute top-60 left-[5%] text-5xl animate-float-slow" style={{ animationDelay: '3s' }}>🎄</div>
+        <div className="absolute bottom-48 right-[8%] text-6xl animate-float-medium" style={{ animationDelay: '1.8s' }}>🎄</div>
+        <div className="absolute top-36 left-[60%] text-4xl animate-float-slow" style={{ animationDelay: '2.2s' }}>🎄</div>
+        <div className="absolute bottom-24 left-[35%] text-5xl animate-float-medium" style={{ animationDelay: '0.8s' }}>🎄</div>
+        <div className="absolute top-16 right-[55%] text-7xl animate-float-slow" style={{ animationDelay: '3.5s' }}>🎄</div>
+        <div className="absolute bottom-40 right-[45%] text-4xl animate-float-medium" style={{ animationDelay: '1.2s' }}>🎄</div>
+      </div>
+
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -22,8 +38,8 @@ export default function Hero() {
             </div>
 
             <div className="inline-block">
-              <span className="bg-amber-600/10 text-amber-700 px-4 py-2 rounded-full text-base font-semibold">
-                <span className="text-2xl">🎄</span> Jetzt auf dem Weihnachtsmarkt <span className="text-2xl">🎄</span>
+              <span className="bg-amber-600/10 text-amber-700 px-3 sm:px-4 py-2 rounded-full text-sm sm:text-base font-semibold whitespace-nowrap">
+                <span className="text-xl sm:text-2xl">🎄</span> Jetzt auf dem Weihnachtsmarkt <span className="text-xl sm:text-2xl">🎄</span>
               </span>
             </div>
 

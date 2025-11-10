@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Phone, Menu, X } from 'lucide-react';
+import { Phone, Menu, X, MapPin } from 'lucide-react';
+import SEO from './components/SEO';
 import Hero from './components/Hero';
 import ImageGallery from './components/ui/image-gallery';
 import Schupfnudeln from './components/Schupfnudeln';
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-amber-50">
+      <SEO />
       <Snowfall />
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -30,6 +32,17 @@ function App() {
               <div className="text-sm text-gray-600">Weihnachtsmarkt Dortmund</div>
             </div>
             <div className="flex items-center space-x-6">
+              {/* Location info */}
+              <a 
+                href="https://maps.google.com/?q=Markt+11,+44137+Dortmund"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden lg:flex items-center space-x-2 text-gray-700 hover:text-amber-600 transition-colors"
+              >
+                <MapPin className="w-4 h-4" />
+                <span className="text-sm font-medium">Markt 11, 44137 Dortmund</span>
+              </a>
+
               {/* Desktop links */}
               <a href="#gallery" className="text-gray-700 hover:text-amber-600 transition-colors font-medium hidden md:block">Unser Stand</a>
               <a href="#contact" className="text-gray-700 hover:text-amber-600 transition-colors font-medium hidden md:block">Kontakt</a>
