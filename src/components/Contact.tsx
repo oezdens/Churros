@@ -14,7 +14,7 @@ export default function Contact() {
       icon: Phone,
       title: 'Telefon',
       content: '0178 9348774',
-      content2: 'Täglich erreichbar',
+      content2: 'Erreichbar während der Öffnungszeiten',
       action: 'Anrufen',
       href: 'tel:01789348774'
     },
