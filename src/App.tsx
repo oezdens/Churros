@@ -22,14 +22,17 @@ function App() {
       <Snowfall />
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="flex justify-between items-center h-20">
+          <div className="flex justify-between items-center h-20 sm:h-20">
             <div className="flex flex-col">
-              <div className="flex items-center space-x-1 sm:space-x-2">
-                <span className="text-lg sm:text-2xl lg:text-3xl font-bold text-amber-600">Churros</span>
-                <span className="text-base sm:text-xl lg:text-2xl font-bold text-gray-400">&</span>
-                <span className="text-lg sm:text-2xl lg:text-3xl font-bold text-blue-600">Schupfnudeln</span>
+              {/* Mobile: 2 lines, Desktop: 1 line */}
+              <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2">
+                <div className="flex items-center space-x-1">
+                  <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-amber-600">Churros</span>
+                  <span className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-400">&</span>
+                </div>
+                <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600">Schupfnudeln</span>
               </div>
-              <div className="text-xs sm:text-sm text-gray-600">Weihnachtsmarkt Dortmund</div>
+              <div className="text-xs sm:text-sm text-gray-600 whitespace-nowrap">Weihnachtsmarkt Dortmund</div>
             </div>
             <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
               {/* Location info */}
