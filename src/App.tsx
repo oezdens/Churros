@@ -25,9 +25,9 @@ function App() {
           <div className="flex justify-between items-center h-20">
             <div className="flex flex-col">
               <div className="flex items-center space-x-1 sm:space-x-2">
-                <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-amber-600">Churros</span>
-                <span className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-400">&</span>
-                <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600">Schupf...</span>
+                <span className="text-lg sm:text-2xl lg:text-3xl font-bold text-amber-600">Churros</span>
+                <span className="text-base sm:text-xl lg:text-2xl font-bold text-gray-400">&</span>
+                <span className="text-lg sm:text-2xl lg:text-3xl font-bold text-blue-600">Schupfnudeln</span>
               </div>
               <div className="text-xs sm:text-sm text-gray-600">Weihnachtsmarkt Dortmund</div>
             </div>

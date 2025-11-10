@@ -35,7 +35,7 @@ export default function Contact() {
             Besuchen Sie uns auf dem <span className="text-amber-600">Weihnachtsmarkt</span>
           </h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
-            Wir freuen uns auf Ihren Besuch! Genießen Sie Dubai Schokolade küsst Churros während des Weihnachtsmarktes in Dortmund.
+            Wir freuen uns auf Ihren Besuch! Genießen Sie Dubai Schokolade küsst Churros und unsere leckeren bayrischen Schupfnudeln mit Speck während des Weihnachtsmarktes in Dortmund.
           </p>
         </div>
 
@@ -78,9 +78,9 @@ export default function Contact() {
                 Auf dem Dortmunder Weihnachtsmarkt
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                Unser Churros-Stand befindet sich auf dem Weihnachtsmarkt am Markt in Dortmund.
+                Unser Stand befindet sich auf dem Weihnachtsmarkt am Markt in Dortmund.
                 Besuchen Sie uns während der Weihnachtsmarktzeit und genießen Sie die besondere
-                Kombination aus Dubai Schokolade und Churros in festlicher Atmosphäre.
+                Kombination aus Dubai Schokolade Churros und bayrischen Schupfnudeln mit Speck in festlicher Atmosphäre.
               </p>
 
               <div className="space-y-4">
@@ -100,7 +100,7 @@ export default function Contact() {
                   <div className="w-6 h-6 bg-amber-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-white text-xs">✓</span>
                   </div>
-                  <p className="text-gray-300">Dubai Schokolade küsst Churros</p>
+                  <p className="text-gray-300">Churros mit Dubai Schokolade & Schupfnudeln mit Speck</p>
                 </div>
               </div>
 
