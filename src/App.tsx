@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Phone, Menu, X } from 'lucide-react';
 import Hero from './components/Hero';
 import ImageGallery from './components/ui/image-gallery';
+import Schupfnudeln from './components/Schupfnudeln';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
@@ -20,9 +21,13 @@ function App() {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center space-x-2">
-              <div className="text-3xl font-bold text-amber-600">Churros</div>
-              <div className="text-sm text-gray-600 hidden sm:block">Weihnachtsmarkt Dortmund</div>
+            <div className="flex flex-col">
+              <div className="flex items-center space-x-2">
+                <span className="text-3xl font-bold text-amber-600">Churros</span>
+                <span className="text-2xl font-bold text-gray-400">&</span>
+                <span className="text-3xl font-bold text-blue-600">Schupfnudeln</span>
+              </div>
+              <div className="text-sm text-gray-600">Weihnachtsmarkt Dortmund</div>
             </div>
             <div className="flex items-center space-x-6">
               {/* Desktop links */}
@@ -62,6 +67,7 @@ function App() {
 
       <Hero />
       <ImageGallery />
+      <Schupfnudeln />
       <Contact />
       <Footer
         onImpressumClick={() => setShowImpressum(true)}

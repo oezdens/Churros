@@ -6,9 +6,9 @@ export default function Contact() {
       icon: MapPin,
       title: 'Adresse',
       content: 'Markt 11',
-      content2: '44139 Dortmund',
+      content2: '44137 Dortmund',
       action: 'Route planen',
-      href: 'https://maps.google.com/?q=Markt+11,+44139+Dortmund'
+      href: 'https://maps.google.com/?q=Markt+11,+44137+Dortmund'
     },
     {
       icon: Phone,
@@ -105,7 +105,7 @@ export default function Contact() {
               </div>
 
               <a
-                href="https://maps.google.com/?q=Markt+11,+44139+Dortmund"
+                href="https://maps.google.com/?q=Markt+11,+44137+Dortmund"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-8 inline-flex items-center space-x-2 bg-amber-600 text-white px-8 py-4 rounded-full hover:bg-amber-700 transition-all shadow-lg hover:shadow-xl w-fit"
@@ -119,7 +119,7 @@ export default function Contact() {
               <div className="text-center space-y-6">
                 <div className="text-8xl mb-4">📍</div>
                 <p className="text-2xl font-bold text-white">Markt 11</p>
-                <p className="text-xl text-amber-100">44139 Dortmund</p>
+                <p className="text-xl text-amber-100">44137 Dortmund</p>
                 <div className="pt-6 space-y-2">
                   <p className="text-amber-50 font-semibold">Rufen Sie uns an:</p>
                   <a

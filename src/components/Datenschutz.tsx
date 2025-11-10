@@ -97,7 +97,7 @@ export default function Datenschutz() {
         <div className="bg-gray-50 p-4 rounded-lg mb-4">
           <p className="text-gray-700">Churros Dortmund</p>
           <p className="text-gray-700">Markt 11</p>
-          <p className="text-gray-700">44139 Dortmund</p>
+          <p className="text-gray-700">44137 Dortmund</p>
           <p className="text-gray-700 mt-2">Telefon: 0178 9348774</p>
         </div>
         <p className="text-gray-700">
@@ -157,7 +157,7 @@ export default function Datenschutz() {
         </p>
         <div className="bg-gray-50 p-4 rounded-lg mt-4">
           <p className="text-gray-700">Churros Dortmund</p>
-          <p className="text-gray-700">Markt 11, 44139 Dortmund</p>
+          <p className="text-gray-700">Markt 11, 44137 Dortmund</p>
           <p className="text-gray-700 mt-2">Telefon: 0178 9348774</p>
         </div>
       </section>

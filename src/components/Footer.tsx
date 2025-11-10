@@ -22,13 +22,13 @@ export default function Footer({ onImpressumClick, onDatenschutzClick }: FooterP
             <h4 className="font-semibold text-lg mb-4">Kontakt</h4>
             <div className="space-y-3">
               <a
-                href="https://maps.google.com/?q=Markt+11,+44139+Dortmund"
+                href="https://maps.google.com/?q=Markt+11,+44137+Dortmund"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start space-x-2 text-gray-400 hover:text-amber-500 transition-colors"
               >
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span>Markt 11<br />44139 Dortmund</span>
+                <span>Markt 11<br />44137 Dortmund</span>
               </a>
               <a
                 href="tel:01789348774"

@@ -8,7 +8,7 @@ export default function Impressum() {
         <div className="space-y-2 text-gray-700">
           <p className="font-semibold text-lg">Churros Dortmund</p>
           <p>Markt 11</p>
-          <p>44139 Dortmund</p>
+          <p>44137 Dortmund</p>
         </div>
       </section>
 
@@ -32,7 +32,7 @@ export default function Impressum() {
         <div className="space-y-2 text-gray-700">
           <p>Churros Dortmund</p>
           <p>Markt 11</p>
-          <p>44139 Dortmund</p>
+          <p>44137 Dortmund</p>
         </div>
       </section>
 
