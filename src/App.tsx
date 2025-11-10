@@ -33,6 +33,7 @@ function App() {
                 <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-blue-600">Schupfnudeln</span>
               </div>
               <div className="text-xs sm:text-sm text-gray-600 whitespace-nowrap">Weihnachtsmarkt Dortmund</div>
+              <div className="text-xs text-gray-500 lg:hidden">📍 Markt 11</div>
             </div>
             <div className="flex items-center space-x-2 sm:space-x-4 lg:space-x-6">
               {/* Location info */}
