@@ -21,8 +21,8 @@ export default function Contact() {
     {
       icon: Clock,
       title: 'Öffnungszeiten',
-      content: 'Weihnachtsmarkt-Zeiten',
-      content2: 'Täglich während des Weihnachtsmarktes'
+      content: '20. Nov. - 30. Dez. 2025',
+      content2: 'Mo-Do: 11-21 Uhr, Fr-Sa: 11-22 Uhr, So: 12-21 Uhr'
     }
   ];
 

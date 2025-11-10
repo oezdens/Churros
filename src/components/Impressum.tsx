@@ -7,8 +7,8 @@ export default function Impressum() {
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäß § 5 DDG (ehemals TMG)</h2>
         <div className="space-y-2 text-gray-700">
           <p>Robert Theiß</p>
-          <p>Zwischen den Wegen 1</p>
-          <p>32427 Minden</p>
+          <p>Markt 11</p>
+          <p>44137 Dortmund</p>
           <p>Deutschland</p>
         </div>
       </section>
@@ -25,8 +25,8 @@ export default function Impressum() {
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV (ehemals § 55 Abs. 2 RStV)</h2>
         <div className="space-y-2 text-gray-700">
           <p>Robert Theiß</p>
-          <p>Zwischen den Wegen 1</p>
-          <p>32427 Minden</p>
+          <p>Markt 11</p>
+          <p>44137 Dortmund</p>
           <p>Telefon: 0800 77777 27</p>
         </div>
       </section>

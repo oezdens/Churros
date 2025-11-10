@@ -60,8 +60,8 @@ export default function Datenschutz() {
         </p>
         <div className="bg-gray-50 p-4 rounded-lg mb-4">
           <p className="text-gray-700">Robert Theiß</p>
-          <p className="text-gray-700">Zwischen den Wegen 1</p>
-          <p className="text-gray-700">32427 Minden</p>
+          <p className="text-gray-700">Markt 11</p>
+          <p className="text-gray-700">44137 Dortmund</p>
           <p className="text-gray-700 mt-2">Telefon: 0800 77777 27</p>
           <p className="text-gray-700">E-Mail: Theissankauf@web.de</p>
         </div>
@@ -265,8 +265,8 @@ export default function Datenschutz() {
         </p>
         <div className="bg-gray-50 p-4 rounded-lg">
           <p className="text-gray-700">Robert Theiß</p>
-          <p className="text-gray-700">Zwischen den Wegen 1</p>
-          <p className="text-gray-700">32427 Minden</p>
+          <p className="text-gray-700">Markt 11</p>
+          <p className="text-gray-700">44137 Dortmund</p>
           <p className="text-gray-700 mt-2">Telefon: 0800 77777 27</p>
           <p className="text-gray-700">E-Mail: Theissankauf@web.de</p>
         </div>
