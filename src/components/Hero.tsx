@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="w-full flex justify-start">
-              <p className="text-lg font-medium text-slate-700 mb-1 text-left tracking-wide">20. November - 30.12.2025</p>
+              <p className="text-lg font-medium text-slate-700 mb-1 text-left tracking-wide">20. Nov. bis 30. Dez. 2025</p>
             </div>
 
             <div className="inline-block">
