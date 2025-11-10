@@ -56,12 +56,12 @@ export default function Schupfnudeln() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
-              Schupfnudeln
-              <span className="block text-blue-600">mit Speck</span>
+              Sauerkraut mit
+              <span className="block text-blue-600">Schupfnudeln & Speck</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-xl">
-              Genießen Sie traditionelle bayrische Schupfnudeln mit herzhaftem Speck. 
+              Sauerkraut mit Schupfnudeln und Speck aus der Gusspfanne. 
               Frisch zubereitet und perfekt gewürzt – ein echter Weihnachtsmarkt-Klassiker.
             </p>
 

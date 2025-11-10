@@ -13,7 +13,7 @@ export default function Footer({ onImpressumClick, onDatenschutzClick }: FooterP
           <div className="col-span-2">
             <h3 className="text-2xl font-bold text-amber-500 mb-4">Churros & Schupfnudeln Weihnachtsmarkt Dortmund</h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
-              Dubai Schokolade küsst Churros und bayrische Schupfnudeln mit Speck - frisch zubereitet 
+              Dubai Schokolade küsst Churros und Sauerkraut mit Schupfnudeln und Speck aus der Gusspfanne - frisch zubereitet 
               und mit Liebe serviert. Besuchen Sie uns auf dem Weihnachtsmarkt am Markt in Dortmund!
             </p>
           </div>
@@ -43,9 +43,11 @@ export default function Footer({ onImpressumClick, onDatenschutzClick }: FooterP
           <div>
             <h4 className="font-semibold text-lg mb-4">Öffnungszeiten</h4>
             <div className="space-y-2 text-gray-400">
-              <p className="font-semibold text-amber-500">Weihnachtsmarkt-Zeiten</p>
-              <p>Täglich während des</p>
-              <p>Dortmunder Weihnachtsmarktes</p>
+              <p className="font-semibold text-amber-500">20. Nov. - 30. Dez. 2025</p>
+              <p className="text-sm">Mo bis Do: 11 bis 21 Uhr</p>
+              <p className="text-sm">Fr und Sa: 11 bis 22 Uhr</p>
+              <p className="text-sm">So: 12 bis 21 Uhr</p>
+              <p className="text-xs mt-2 text-gray-500">Glühwein- und Imbissstände<br />bis zu einer Stunde länger geöffnet</p>
             </div>
           </div>
         </div>
